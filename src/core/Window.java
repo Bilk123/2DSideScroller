@@ -17,7 +17,7 @@ import static org.lwjgl.system.MemoryUtil.NULL;
 
 public class Window {
     /**
-     * a pointer for the window
+     * a 'pointer' for the window
      */
     private long window;
 
@@ -84,6 +84,7 @@ public class Window {
 
         glfwMakeContextCurrent(window);
 
+        //enable/disable V-SYNC.
         glfwSwapInterval(0);
 
         glfwShowWindow(window);
