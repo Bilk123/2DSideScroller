@@ -1,4 +1,4 @@
-package core;
+package application.core;
 
 public class Time {
     public static final int SECOND = 1000000000;
